@@ -11,26 +11,26 @@ for example host: 127.0.0.1:8000
 
 urls:
 
-    create request (available for everyone)
-    [127.0.0.1:8000/api/forbidden/request/create/](127.0.0.1:8000/api/forbidden/request/create/)
-    
-    list of all requests (only for admin)
-    [127.0.0.1:8000/api/forbidden/request/all/](127.0.0.1:8000/api/forbidden/request/all/)
-    
-    detail of request (only for admin)
-    admin can make the decision (confirm/reject) (default=verifying)
-    id = 1 (for example)
-    [127.0.0.1:8000/api/forbidden/request/detail/1/](127.0.0.1:8000/api/forbidden/request/detail/1/)
-    
-    add item to prohibited list (only for admin)
-    [127.0.0.1:8000/api/forbidden/prohibited/create/](127.0.0.1:8000/api/forbidden/prohibited/create/)
-    
-    prohibited list: all prohibited items (only for admin)
-    [127.0.0.1:8000/api/forbidden/prohibited/all/](127.0.0.1:8000/api/forbidden/prohibited/all/)
-    
-    prohibited item detail (editable) (only for admin)
-    id = 1 (for examaple)
-    [127.0.0.1:8000/api/forbidden/prohibited/detail/1/](127.0.0.1:8000/api/forbidden/prohibited/detail/1/)
+create request (available for everyone)
+[127.0.0.1:8000/api/forbidden/request/create/](127.0.0.1:8000/api/forbidden/request/create/)
+
+list of all requests (only for admin)
+[127.0.0.1:8000/api/forbidden/request/all/](127.0.0.1:8000/api/forbidden/request/all/)
+
+detail of request (only for admin)
+admin can make the decision (confirm/reject) (default=verifying)
+id = 1 (for example)
+[127.0.0.1:8000/api/forbidden/request/detail/1/](127.0.0.1:8000/api/forbidden/request/detail/1/)
+
+add item to prohibited list (only for admin)
+[127.0.0.1:8000/api/forbidden/prohibited/create/](127.0.0.1:8000/api/forbidden/prohibited/create/)
+
+prohibited list: all prohibited items (only for admin)
+[127.0.0.1:8000/api/forbidden/prohibited/all/](127.0.0.1:8000/api/forbidden/prohibited/all/)
+
+prohibited item detail (editable) (only for admin)
+id = 1 (for examaple)
+[127.0.0.1:8000/api/forbidden/prohibited/detail/1/](127.0.0.1:8000/api/forbidden/prohibited/detail/1/)
         
 
 to run project:
