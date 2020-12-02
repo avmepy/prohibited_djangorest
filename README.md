@@ -9,6 +9,9 @@ Non-authenticated user can make requests to block this or that web-site
 
 for example host: 127.0.0.1:8000
 
+download docker image
+```docker pull valentinoo/prohibited_djangorest_web:latest```
+
 urls:
 
 create request (available for everyone)
