@@ -44,3 +44,11 @@ or
 to create superuser (admin):
 
 ```python manage.py createsuperuser```
+
+to migrate migrations in docker:
+
+```docker-compose run web python manage.py migrate```
+
+to run via docker:
+
+```docker-compose up``` 
